@@ -1,7 +1,7 @@
 [server]
 headless = true
 port = 10000
+enableCORS = false  # Esto es a menudo necesario en entornos de nube
 
 [browser]
 serverAddress = "0.0.0.0"
-serverPort = 10000
